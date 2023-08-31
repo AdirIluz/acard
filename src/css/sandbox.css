@@ -1,0 +1,18 @@
+.table.table-bordered.table-condensed {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+.table.table-bordered.table-condensed thead th {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+.table.table-bordered.table-condensed tbody td {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+.table {
+    font-size: 1.8rem;
+}

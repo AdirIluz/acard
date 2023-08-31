@@ -1,0 +1,46 @@
+/* ---header--- */
+.navbar-nav .nav-item {
+    font-size: 1.5rem;
+}
+
+.navbar-top {
+    border-bottom: 1px solid #000;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.profile-image {
+    height: 2.5rem;
+    width: 2.5rem;
+    max-height: 2.5rem;
+    border: 1px solid;
+    border-radius: 30px;
+    margin: 0 0.5rem;
+}
+
+.logo {
+    width: 80px;
+    height: 40px;
+}
+
+/* --- footer ---- */
+
+.navbar-nav .nav-item i {
+    padding: 2px;
+    font-size: 1.2rem;
+}
+
+.footer.nav-item {
+    font-size: 1.2rem;
+}
+
+.nav-item:hover .nav-link {
+    color: darkgray !important;
+}
+
+.footer-navbar {
+    border-top: 1px solid #000;
+    padding: 10px;
+}

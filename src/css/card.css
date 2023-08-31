@@ -1,0 +1,40 @@
+.row {
+    justify-content: center;
+}
+
+.card {
+    width: 24rem;
+    margin: 5px;
+    margin-bottom: 2rem;
+    border: 1px solid #000;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 250px;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.card-img-top:hover {
+    transform: scale(1.0);
+    transition: transform 1s;
+}
+
+.card i {
+    font-size: 1.5rem;
+
+}
+
+.card p {
+    font-size: 1.2rem;
+}
+
+.card h5 {
+    font-size: 1.5rem;
+}
+
+.card h6 {
+    font-size: 1.3rem;
+}

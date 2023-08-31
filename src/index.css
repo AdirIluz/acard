@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css";
+@import "./css/cardDetails.css";
+@import "./css/navbar.css";
+@import "./css/card.css";
+@import "./css/sandbox.css";
+@import "./css/about.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+body {
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.container {
+    height: 100%;
+    width: 99vw;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+i {
+    cursor: pointer;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.fa-trash:hover,
+.fa-trash:hover:active {
+    color: red;
+}
+
+.fa-pen-to-square:hover {
+    color: orange;
+}
+
+.fa-phone:hover,
+.fa-envelope:hover {
+    color: green;
+}
+
+ul .footer {
+    margin: 0 2rem;
+}
+
+.footer-navbar {
+    height: 7vh;
+}
+
+/* ---- Login section ---- */
+.login {
+    height: 80vh;
+}
+
+@media (max-width: 990px) {
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
 }
